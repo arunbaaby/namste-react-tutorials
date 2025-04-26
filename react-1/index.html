@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- We need to put heading here with JS-->
+    <div id="root"></div>
+
+    <script> 
+        // we need to create element first 
+        // and then write content in the element
+        const headinElement = document.createElement('h1');
+        headinElement.innerHTML = 'Heading with JS !'
+
+        const root = document.getElementById('root');
+        root.appendChild(headinElement);
+
+    </script>
+</body>
+</html>
