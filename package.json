@@ -1,0 +1,23 @@
+{
+  "name": "react-namaste",
+  "version": "1.0.0",
+  "description": "namaste-react-tutorials",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunbaaby/namste-react-tutorials.git"
+  },
+  "keywords": [],
+  "author": "Arun Baby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunbaaby/namste-react-tutorials/issues"
+  },
+  "homepage": "https://github.com/arunbaaby/namste-react-tutorials#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
